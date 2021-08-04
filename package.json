@@ -1,14 +1,14 @@
 {
-  "name": "split-chore-server",
-  "version": "1.0.0",
-  "description": "Household Chores",
+  "name": "node-express-ts-mysql-typeorm-starter",
+  "version": "0.1.0",
+  "description": "Well structured starter project for Node.js Express app with TypeScript, MySQL and TypeORM",
   "main": "index.js",
   "author": "Mayur Rank <mayurrank@live.com>",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
-    "build-ts": "rm -rf dist/ && tsc",
+    "build": "rm -rf dist/ && tsc",
     "start": "npm run serve",
-    "serve": "npm run build-ts && node dist/index.js",
+    "serve": "npm run build && node dist/index.js",
     "dev": "nodemon",
     "watch-ts": "tsc -w",
     "migration:generate": "ts-node ./node_modules/.bin/typeorm migration:generate",
@@ -16,9 +16,11 @@
     "precommit": "pretty-quick --staged"
   },
   "keywords": [
-    "split",
-    "chore",
-    "server"
+    "Node",
+    "Express",
+    "TypeScript",
+    "MySQL",
+    "TypeORM"
   ],
   "dependencies": {
     "@hapi/joi": "^17.1.1",
