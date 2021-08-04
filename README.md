@@ -83,3 +83,7 @@ npm run dev
 ```
 npm run start
 ```
+
+## Note
+
+Migration setup pending..
